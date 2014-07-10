@@ -170,7 +170,7 @@ function prompt_lm_scm_time_since_commit() {
 precmd() vcs_info
 setopt promptsubst
 
-PROMPT="$pc[divider]\$(repeat \$COLUMNS printf '-')$pc[reset]"
+PROMPT="$pc[reset]"
     PROMPT+=
         if [ $verbose ]; then
             PROMPT+="$pc[host]%m$pc[reset]"
