@@ -12,3 +12,4 @@ zstyle ':completion:*' group-name ''
 zstyle ':completion:*:manuals' separate-sections true
 
 ZSH_HIGHLIGHT_STYLES[path]='fg=white,underline'
+ZSH_HIGHLIGHT_STYLES[cursor]='bg=red'
