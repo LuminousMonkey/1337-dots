@@ -32,4 +32,6 @@ if type dircolors &>/dev/null; then
     eval $(dircolors)
     export ZLS_COLORS=$LS_COLORS
 fi
+
+export LESS="-XFR"
 # vim:ft=zsh
